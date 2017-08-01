@@ -30,9 +30,7 @@
   ],
   "homepage": "https://github.com/SporeUI/spore-documentation-theme#readme",
   "devDependencies": {
-    "@tencent/gulp-tcms-upload": "^0.1.2",
-    "documentation": "^5.1.0",
-    "gulp": "^3.9.1"
+    "documentation": "^5.1.0"
   },
   "dependencies": {
     "concat-stream": "^1.6.0",
