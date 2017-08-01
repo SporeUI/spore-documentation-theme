@@ -1,6 +1,6 @@
 {
   "name": "spore-documentation-theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A documentation-theme for spore-kit",
   "main": "./dist/index.js",
   "scripts": {
