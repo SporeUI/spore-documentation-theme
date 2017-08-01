@@ -135,7 +135,7 @@
 .px0{ padding-left:0; padding-right:0 }
 .py0{ padding-top:0;  padding-bottom:0 }
 
-.p1{ padding: .5rem }
+.p1{ padding: .5rem; tab-size: 2em; }
 .pt1{ padding-top: .5rem }
 .pr1{ padding-right: .5rem }
 .pb1{ padding-bottom: .5rem }

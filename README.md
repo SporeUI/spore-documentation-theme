@@ -7,7 +7,7 @@
 ```shell
 npm i -g documentation
 npm i -D spore-documentation-theme
-documentation build ./index.js -c ./documentation.yml -f html -o ./doc
+documentation build ./index.js -c ./documentation.yml -f html -o ./doc -t spore-documentation-theme
 ```
 
 ## Release History
