@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml",
+    "start": "documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml -t ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +23,23 @@
   "bugs": {
     "url": "https://github.com/SporeUI/spore-documentation-theme/issues"
   },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
   "homepage": "https://github.com/SporeUI/spore-documentation-theme#readme",
   "devDependencies": {
-    "documentation": "^5.1.0"
+    "@tencent/gulp-tcms-upload": "^0.1.2",
+    "documentation": "^5.1.0",
+    "gulp": "^3.9.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "github-slugger": "^1.1.3",
+    "highlight.js": "^9.12.0",
+    "lodash": "^4.17.4",
+    "vinyl": "^2.1.0",
+    "vinyl-fs": "^2.4.4"
+  }
 }
