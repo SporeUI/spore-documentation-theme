@@ -1,6 +1,3 @@
 toc:
-  - Map
-  - name: Geography
+  - name: README
     file: README.md
-  - LngLat
-  - LngLatBounds
