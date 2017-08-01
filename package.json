@@ -4,8 +4,8 @@
   "description": "A documentation-theme for spore-kit",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "gulp build",
-    "test": "gulp clean-test && documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml -t ./dist/index.js"
+    "dev": "gulp clean-test && documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml -t ./src/index.js",
+    "dist": "gulp build && gulp clean-test && documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml -t ./dist/index.js"
   },
   "repository": {
     "type": "git",
