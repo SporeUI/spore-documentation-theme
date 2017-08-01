@@ -7,9 +7,9 @@ var vfs = require('vinyl-fs');
 var _ = require('lodash');
 var concat = require('concat-stream');
 var GithubSlugger = require('github-slugger');
-var createFormatters = require('documentation').util.createFormatters;
-var LinkerStack = require('documentation').util.LinkerStack;
 var hljs = require('highlight.js');
+var createFormatters = require('../util/formatters');
+var LinkerStack = require('../util/linker_stack');
 
 function isFunction(section) {
 	return (
