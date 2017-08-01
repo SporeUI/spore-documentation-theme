@@ -2,13 +2,10 @@
   "name": "spore-documentation-theme",
   "version": "0.0.1",
   "description": "A documentation-theme for spore-kit",
-  "main": "./lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "./dist/index.js",
   "scripts": {
-    "start": "documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml -t ./lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "test": "documentation build ./test/src/index.js -f html -o ./test/dist -c ./documentation.yml -t ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,13 +21,16 @@
     "url": "https://github.com/SporeUI/spore-documentation-theme/issues"
   },
   "files": [
-    "lib",
+    "dist",
     "README.md",
     "LICENSE"
   ],
   "homepage": "https://github.com/SporeUI/spore-documentation-theme#readme",
   "devDependencies": {
-    "documentation": "^5.1.0"
+    "del": "^3.0.0",
+    "documentation": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.6.1"
   },
   "dependencies": {
     "concat-stream": "^1.6.0",
